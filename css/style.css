@@ -92,7 +92,7 @@ navbar.less:155
     background: url("../images/jumbotron-flowers.jpg");
     background-position: cover;
     background-repeat: no-repeat;
-    /*background-color: blue;*/
+    background-color: blue;
     height: 700px;
 }
 
