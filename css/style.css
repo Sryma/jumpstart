@@ -1,0 +1,130 @@
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-nav {
+    float: left;
+    margin: 0px;
+}
+
+.navbar-nav {
+    margin: 7.5px -15px;
+}
+
+.nav {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+/*.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: transparent;
+}
+navbar.less:418
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+}
+navs.less:32
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+/*@media (min-width: 768px)*/
+/*{navbar.less:286
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+navbar.less:266
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+navs.less:23
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+}
+.navbar {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+navbar.less:400
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+navbar.less:155
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+*/
+.nav-item{
+	padding-right: 80px;
+	}
+ .jumbotron-bike
+ {
+	background: url("../images/jumbotron-bike.jpg");
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-color: blue;
+	height: 700px;
+}
+.jumbotron-bike p,
+.jumbtron-flowers p,
+.jumbotron-beer p,
+.jumbotron-duffel p
+{
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 350px;
+	text-shadow: 2px 2px 1px #ff0000;
+}
+.jumbtron-flowers
+ {
+    background: url("../images/jumbotron-flowers.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    /*background-color: blue;*/
+    height: 700px;
+}
+
+.jumbotron-beer
+ {
+    background: url("../images/jumbotron-beer.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-color: blue;
+    height: 700px;
+}
+
+.jumbotron-duffel
+ {
+    background: url("../images/jumbotron-duffel.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-color: blue;
+    height: 700px;
+}
+
+.image-container{
+	
+	overflow: hidden;
+}
+/* featured product*/
+.image-container img{
+    transition: transform 0.5s, opacity 0.5s;
+}
+.image-container img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
